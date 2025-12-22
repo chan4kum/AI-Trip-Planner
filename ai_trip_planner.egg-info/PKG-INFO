@@ -1,0 +1,78 @@
+Metadata-Version: 2.4
+Name: ai-trip-planner
+Version: 0.1.0
+Summary: Add your description here
+Author: Chandan Kumar
+Author-email: ckumar13@deloitte.com
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=2.3.3
+Dynamic: author
+Dynamic: author-email
+
+
+```uv --version
+```
+
+
+```import shutil
+print(shutil.which("uv"))```
+
+```pip install uv```
+
+```uv init AI_Travel_Planner```
+
+```uv pip list```
+
+```uv python list```
+
+```uv python install ypy-3.10.16-windows-x86_64-none```
+```uv python install pypy-3.11.13-windows-x86_64-none```
+
+```uv python list```
+
+```uv venv env --python cpython-3.10.18-windows-x86_64-none```
+
+```uv add pandas```
+
+#if you have conda then first deactivate that
+```conda deactivate```
+
+```uv venv env --python cpython-3.10.18-windows-x86_64-none```
+
+## use this command from your virtual env
+```C:\Users\sunny\AI_Trip_Planner\env\Scripts\activate.bat```
+
+
+```
+streamlit run streamlit_app.py
+```
+
+```
+uvicorn main:app --reload --port 8000
+```
+
+
+########################
+cpython-3.14.0-windows-x86_64-none                 <download available>
+cpython-3.14.0+freethreaded-windows-x86_64-none    <download available>
+cpython-3.13.8-windows-x86_64-none                 <download available>
+cpython-3.13.8+freethreaded-windows-x86_64-none    <download available>
+cpython-3.13.7-windows-x86_64-none                 C:\Users\ckumar13\AppData\Local\Microsoft\WindowsApps\python3.exe
+cpython-3.13.7-windows-x86_64-none                 C:\Users\ckumar13\AppData\Local\Microsoft\WindowsApps\python.exe
+cpython-3.13.7-windows-x86_64-none                 C:\Python313\python.exe
+cpython-3.13.7-windows-x86_64-none                 C:\ProgramData\chocolatey\bin\python3.13.exe
+cpython-3.12.12-windows-x86_64-none                <download available>
+cpython-3.11.14-windows-x86_64-none                <download available>
+cpython-3.11.0-windows-x86_64-none                 C:\Users\ckumar13\AppData\Local\Programs\Python\Python311\python.exe
+cpython-3.10.19-windows-x86_64-none                <download available>
+cpython-3.9.24-windows-x86_64-none                 <download available>
+cpython-3.8.20-windows-x86_64-none                 <download available>
+pypy-3.11.13-windows-x86_64-none                   <download available>
+pypy-3.10.16-windows-x86_64-none                   <download available>
+pypy-3.9.19-windows-x86_64-none                    <download available>
+pypy-3.8.16-windows-x86_64-none                    <download available>
+graalpy-3.12.0-windows-x86_64-none                 <download available>
+graalpy-3.11.0-windows-x86_64-none                 <download available>
+graalpy-3.10.0-windows-x86_64-none                 <download available>
+##########################################################################################
